@@ -1,0 +1,44 @@
+{
+  "name": "quidemcupiditate",
+  "description": "JavaScript parser, mangler/compressor and beautifier toolkit",
+  "author": "ColleenLedner",
+  "license": "BSD-2-Clause",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "maintainers": [
+    "Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeolaGoodwin/quidemcupiditate.git"
+  },
+  "main": "tools/node.js",
+  "bin": {
+    "uglifyjs": "bin/uglifyjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "tools",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "commander": "~2.9.0",
+    "source-map": "~0.5.1"
+  },
+  "devDependencies": {
+    "acorn": "~5.0.3",
+    "mocha": "~2.3.4"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "hic",
+    "uglify-js",
+    "minify",
+    "minifier"
+  ]
+}
